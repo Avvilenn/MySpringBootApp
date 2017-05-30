@@ -32,7 +32,7 @@
             <form class="form-inline" method="POST" action="addtext">
               <div class="form-group">
 
-                <input type="email" class="form-control" id="exampleInputEmail3" placeholder="text" name="text" required>
+                <input type="email" class="form-control" id="exampleInputEmail3" placeholder="text" name="text" value="${person.feedback}" required>
               </div>
 
               <button type="submit" class="btn btn-default">Add some text</button>
