@@ -12,6 +12,11 @@ import org.springframework.boot.web.support.SpringBootServletInitializer;
 @SpringBootApplication
 public class SwingBootWebApp extends SpringBootServletInitializer {
 
+    public SwingBootWebApp() {
+        super();
+        setRegisterErrorPageFilter(false);
+    }
+
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
         return application.sources(SwingBootWebApp.class);
