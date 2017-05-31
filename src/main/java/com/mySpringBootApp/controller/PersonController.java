@@ -32,6 +32,8 @@ public class PersonController {
         return "welcome";
     }
 
+
+
 //    @RequestMapping("/error")
 //    public String error (Model model){
 //        List<Person> personList = service.getAll();

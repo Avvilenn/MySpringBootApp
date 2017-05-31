@@ -1,7 +1,7 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
-<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <!DOCTYPE html>
+
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="library">
     <meta name="author" content="me">
-
+    <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
     <title>Welcome</title>
     <link href="../../static/css/bootstrap.min.css" rel="stylesheet">
     <link href="../../static/ie10-viewport-bug-workaround.css" rel="stylesheet">
