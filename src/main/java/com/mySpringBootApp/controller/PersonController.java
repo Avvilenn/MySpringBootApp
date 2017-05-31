@@ -26,7 +26,7 @@ public class PersonController {
         return "welcome";
     }
 
-    @RequestMapping(value = "/persistPerson", method = RequestMethod.POST)
+    @RequestMapping(value = "/addtext", method = RequestMethod.POST)
     public String add(@RequestBody Person person) {
         service.addPerson(person);
         return "welcome";

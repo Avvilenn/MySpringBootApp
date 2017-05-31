@@ -8,9 +8,9 @@
     <meta name="author" content="me">
     <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
     <title>Welcome</title>
-    <link href="../static/css/bootstrap.min.css" rel="stylesheet">
-    <link href="../static/ie10-viewport-bug-workaround.css" rel="stylesheet">
-    <link href="../static/cover.css" rel="stylesheet">
+    <link href="../../static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../static/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <link href="../../static/cover.css" rel="stylesheet">
      <script type="text/javascript" src="http://gc.kis.v2.scr.kaspersky-labs.com/02DCC049-F923-2A47-AA9C-3C7214D5AB18/main.js" charset="UTF-8"></script><script src="../../assets/js/ie-emulation-modes-warning.js"></script>
 </head>
 
@@ -72,8 +72,8 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-<script src="../static/dist/js/bootstrap.min.js"></script>
+<script src="../../static/dist/js/bootstrap.min.js"></script>
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-<script src="../static/assets/js/ie10-viewport-bug-workaround.js"></script>
+<script src="../../static/assets/js/ie10-viewport-bug-workaround.js"></script>
 </body>
 </html>
