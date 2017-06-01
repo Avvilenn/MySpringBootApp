@@ -1,4 +1,5 @@
-<%@ taglib prefix="c" uri="java.sun.com/jsp/jstl/core" %>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,12 +8,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="library">
     <meta name="author" content="me">
-
+    <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
     <title>Welcome</title>
     <link href="../../static/css/bootstrap.min.css" rel="stylesheet">
     <link href="../../static/ie10-viewport-bug-workaround.css" rel="stylesheet">
     <link href="../../static/cover.css" rel="stylesheet">
-     <script type="text/javascript" src="http://gc.kis.v2.scr.kaspersky-labs.com/02DCC049-F923-2A47-AA9C-3C7214D5AB18/main.js" charset="UTF-8"></script><script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+     <script type="text/javascript" src="http://gc.kis.v2.scr.kaspersky-labs.com/02DCC049-F923-2A47-AA9C-3C7214D5AB18/main.js" charset="UTF-8"></script>
+     <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+     <script src="../../assets/js/myjs.js"></script>
 </head>
 
 <body>

@@ -64,6 +64,4 @@ public class ApplicationWebMvcConfig extends WebMvcConfigurerAdapter {
         filterRegistrationBean.setEnabled(false);
         return filterRegistrationBean;
     }
-
-
 }
